@@ -12,10 +12,7 @@ img {
   font-weight: 900;
 }
 
-.header {
-  display: flex;
-  justify-content: center;
-}
+
 
 .body {
   display: flex;
@@ -24,12 +21,12 @@ img {
   margin: 32px;
 }
 
-.info {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  align-items: center;
+body {
+  text-align: center;
+}
 
+.info {
+  max-width: 200px;
 }
 
 /* do not edit this footer */
